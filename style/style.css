@@ -1,0 +1,163 @@
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.navStyle {
+  background-color: #092c4c !important;
+  color: #ffffff !important;
+}
+
+.goldColor {
+  color: #f2994a !important;
+}
+
+.greyColor {
+  color: #4f4f4f;
+  font-weight: bold;
+}
+
+.navStyle li a {
+  color: #ffffff !important;
+}
+
+.whiteLine {
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.19);
+}
+
+.goldLine {
+  border: 2px solid #f2994a;
+  width: 20%;
+}
+
+.contactText {
+  font-size: 16px;
+  line-height: 19px;
+  color: #4f4f4f;
+}
+
+.footerFontSize {
+  font-size: 16px;
+}
+body,
+html {
+  height: 100%;
+}
+
+.masthead {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url("heroimage.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.fontColor {
+  color: #f2994a;
+}
+
+.rectangle {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.dottedrectangle {
+  position: absolute;
+  top: 0px;
+  right: 0;
+  height: auto;
+  width: 50%;
+}
+
+.rectangle2 {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.dottedrectangle2 {
+  position: absolute;
+  top: 0px;
+  right: 0;
+  height: 90%;
+  width: 100%;
+}
+
+.parent {
+  position: relative;
+  /* width: 80%;
+  height: 80vh; */
+  margin: 5% auto;
+  /* background: #fff;
+  box-shadow: 0px 0px 5px #000; */
+}
+.child {
+  position: absolute;
+  top: 10%;
+  bottom: -5%;
+  right: 5%;
+  width: 50%;
+  background: #fff;
+  box-shadow: 0px 0px 5px #000;
+  height: 28em;
+}
+
+.parent2 {
+  position: relative;
+  margin: 5% auto;
+}
+.child2 {
+  position: absolute;
+  top: 10%;
+  bottom: -5%;
+  background: #fff;
+  box-shadow: 0px 0px 5px #000;
+  height: 25em;
+  width: 70%;
+  margin-right: 20%;
+  padding: 20px;
+}
+
+.content-desktop {
+  display: block;
+}
+
+.main {
+  width: 1000px;
+  height: 500px;
+  background-color: #111210;
+  display: flex;
+  justify-content: center;
+}
+
+.inner {
+  width: 250px;
+  height: 250px;
+  background-color: #34cb2f;
+  align-self: flex-end;
+}
+
+#content-mobile {
+  display: none;
+}
+
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .content-desktop {
+    display: none;
+  }
+  #content-mobile {
+    display: block;
+  }
+
+  footer {
+    margin-top: 90%;
+  }
+}
