@@ -43,6 +43,14 @@ body {
   color: #4f4f4f;
 }
 
+.contactText{
+font-weight: bold;
+font-size: 18px;
+line-height: 22px;	
+}
+
+
+color: #4F4F4F;
 .footerFontSize {
   font-size: 16px;
 }
@@ -50,7 +58,7 @@ body {
 .masthead {
   height: 100vh;
   min-height: 500px;
-  background-image: url("heroimage.jpg");
+  background-image: url("../images/heroimage.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -105,20 +113,44 @@ body {
   height: 28em;
 }
 
+
+.relative {
+  position: relative;
+  /* height: 80px; */
+
+  /* opacity: 0.7; */
+}
+
+
+#rel1 {
+  top: 30px;
+  /* margin: 0px 50px 0px 50px; */
+}
+
+#rel2 {
+    top: -100px;
+    /* background-color: aliceblue; */
+    margin: 0px 10px 0px 40px;
+    padding: 20px;
+    width: 80%;
+}
+
+
 .parent2 {
   position: relative;
   margin: 5% auto;
 }
 .child2 {
-  position: absolute;
+/*  position: absolute;
+*/ 
   top: 10%;
   bottom: -5%;
   background: #fff;
   box-shadow: 0px 0px 5px #000;
   height: 25em;
-  width: 70%;
-  margin-right: 20%;
-  padding: 20px;
+  padding-left: 5px;
+    padding-right: 5px;
+  width: 100%;
 }
 
 .content-desktop {
@@ -253,9 +285,9 @@ body {
     width: 100%;
   }
 
-  #testimonial {
+/*  #testimonial {
     padding-top: 100%;
-  }
+  }*/
 
   .font-padding {
     padding-top: 10%;
