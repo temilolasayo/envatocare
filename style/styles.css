@@ -1,6 +1,5 @@
 body {
   font-family: "Inter", sans-serif;
-  height: 100%;
 }
 
 .navStyle {
@@ -39,6 +38,10 @@ body {
 
 .footerFontSize {
   font-size: 16px;
+}
+body,
+html {
+  height: 100%;
 }
 
 .masthead {
@@ -134,97 +137,16 @@ body {
   align-self: flex-end;
 }
 
-.testimonialFontOne {
-  font-weight: 500;
-  font-size: 20px;
-  color: #bfbfbf;
-}
-
-.testimonialFontTwo {
-  font-weight: bold;
-  font-size: 24px;
-  color: #202c3a;
-}
-
-.testimonialMobileFontOne {
-  font-size: 10px;
-  color: #202c3a;
-}
-
-.imageFloatLeft {
-  width: 25%;
-  float: left;
-  margin-bottom: 5px;
-  border-radius: 50%;
-}
-
-.imageFloatRight {
-  width: 25%;
-  float: right;
-  margin-bottom: 5px;
-  border-radius: 50%;
-}
-
-.mobiletitle {
-  font-weight: bold;
-  font-size: 16px;
-  text-align: center;
-  color: #4f4f4f;
-}
-
-.textFloatRight {
-  float: right;
-  width: 70%;
-  text-align: right;
-}
-
-.testimonialMobileFontTwo {
-  font-weight: bold;
-  font-size: 10px;
-  line-height: 12px;
-  color: #202c3a;
-}
-
 #content-mobile {
   display: none;
-}
-
-.testimonial-mobile {
-  display: none;
-}
-
-.custom-toggler .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255, 255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-}
-
-.custom-toggler.navbar-toggler {
-  border-color: #fff;
 }
 
 .footer {
   left: 0;
   bottom: 0;
-  /*  width: 100%;
-*/
+  width: 100%;
   color: white;
   text-align: center;
-  padding-top: 5%;
-}
-
-.messageFont {
-  font-weight: bold;
-  font-size: 35px;
-  color: #ffffff;
-}
-
-.centered {
-  position: absolute;
-  top: 40%;
-  left: 16px;
-}
-
-#heroBtn {
-  width: 15%;
 }
 
 @media screen and (max-width: 768px) {
@@ -235,31 +157,7 @@ body {
     display: block;
   }
 
-  .testimonial-desktop {
-    display: none;
-  }
-
-  .testimonial-mobile {
-    display: block;
-  }
-
   footer {
-    width: 100%;
-  }
-
-  #testimonial {
-    padding-top: 100%;
-  }
-
-  .font-padding {
-    padding-top: 10%;
-  }
-
-  #featuredProducts {
-    padding-top: 10%;
-  }
-
-  #heroBtn {
-    width: 25%;
+    margin-top: 90%;
   }
 }

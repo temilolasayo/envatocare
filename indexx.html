@@ -32,11 +32,11 @@
   <body>
     <!-- Navigation -->
     <nav
-      class="navbar navbar-expand-lg navbar-light bg-light shadow fixed-top custom-toggler navStyle"
+      class="navbar navbar-expand-lg navbar-light bg-light shadow fixed-top navStyle"
     >
-      <div class="container-fluid">
+      <div class="container">
         <a class="navbar-brand" href="#"
-          ><img src="style/logo.png" width="100"
+          ><img src="style/logo.png" style="width: 20%;"
         /></a>
         <button
           class="navbar-toggler"
@@ -49,7 +49,6 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-      </div>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
@@ -68,15 +67,16 @@
               <a class="nav-link" href="#products">Products</a>
             </li>
             <li class="nav-item">
+              <a class="nav-link" href="#testimonials">Testimonials</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
-          <i class="fa fa-search pl-5" aria-hidden="true"></i>
+          <i class="fa fa-search" aria-hidden="true"></i>
         </div>
       </div>
     </nav>
-
-    <!-- <div class="container"> -->
 
     <!-- Full Page Image Header with Vertically Centered Content -->
     <header class="masthead">
@@ -87,7 +87,7 @@
               Refill, transfer your presciptions<br/> the simple way
             </h1>
             <p class="lead pt-5">
-              <button type="button" class="btn btn-warning pl-3 pr-3" id="heroBtn">
+              <button type="button" class="btn btn-warning pl-3 pr-3" style="width:15%">
                 More
               </button>
             </p>
@@ -118,25 +118,25 @@
     <section id="services">
       <div class="container">
         <h1 class="text-center ">Our Services</h1>
-        <hr class=" text-center goldLine">
-        <div class="row pt-3">
-          <div class="col-sm text-center font-padding">
-            <img class="text-center pb-2" src="images/iconOne.png" />
+        <hr class=" text-center  goldLine">
+        <div class="row">
+          <div class="col-sm text-center ">
+            <img class="text-center" src="style/shopping-cart.png" />
             <h3>Refill your meds</h3>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna nec
             tempus imperdiet tortor quam accumsan, elementum enim. Nibh nulla
             neque consectetur arcu enim in nunc amet id. Arcu morbi sed egestas
           </div>
-          <div class="col-sm text-center  font-padding ">
-            <img class="text-center pb-2" src="images/iconTwo.png" />
+          <div class="col-sm text-center  ">
+            <img class="text-center" src="style/group.png" />
 
             <h3>Get prescription pills</h3>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna nec
             tempus imperdiet tortor quam accumsan, elementum enim. Nibh nulla
             neque consectetur arcu enim in nunc amet id. Arcu morbi sed egestas
           </div>
-          <div class="col-sm text-center font-padding">
-            <img class="text-center pb-2" src="images/iconThree.png" />
+          <div class="col-sm text-center ">
+            <img class="text-center" src="style/vector.png" />
             <h3>Consult with a pharmasist</h3>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna nec
             tempus imperdiet tortor quam accumsan, elementum enim. Nibh nulla
@@ -147,8 +147,8 @@
     </section>
 
     <!-- Featured Products -->
-    <section id="featuredProducts">
-                        <h1 class="text-center pt-5 pb-3" id="products">Featured Products</h1>
+    <section>
+                        <h1 class="text-center pt-3 pb-3" id="products">Featured Products</h1>
                         <hr class=" text-center  goldLine">
       <div class="row"  >
         <div class="card-deck">
@@ -253,19 +253,16 @@
       </div>
     </section>
 
-    <!-- Form Section Desktop View-->
+    <!-- Form Section -->
     <section  class="content-desktop" id="contact">
       <div class="container">
         <div class="parent">
           <div style="position: relative; top: 0;">
-            <div class="container">
-                          <img class="img-responsive rectangle" style="width: 100%;" src="style/rectangle.png" />
-                          <div class="centered">
-                            <p class="messageFont pl-5">We’d love to hear<br/> from you</p>
-                          </div>
-            </div>
-
-          
+            <img
+              class="img-responsive rectangle"
+              style="width: 100%;"
+              src="style/rectangle.png"
+            />
 
             <img
               class="img-responsive dottedrectangle"
@@ -299,11 +296,11 @@
             </div>
           </div>
           <div class="row pb-5" id="displayContent">
-              <div class="col-sm-3 ">
+              <div class="col-sm-2 ">
                 <p class="greyColor">Our address</p>
                 <p class="contactText" >No.3 Portharcout Road, Umutoguma, Rivers State</p>
               </div>
-            <div class="col-sm-3">
+            <div class="col-sm-2">
                 <p class="greyColor">Support</p>
                 <p class="contactText">medzone@info.com</p>
                 <p class="contactText">+234 567 86790</p>
@@ -311,10 +308,11 @@
           </div>
         </div>
       </div>
-    </section> 
+    </section>
+
     
-        <!-- Form Section Mobile View -->
-    <section id="content-mobile">
+    
+        <section id="content-mobile">
       <div class="container">
           <div class="row">
               <div class="col">
@@ -354,125 +352,12 @@
           </div>
 
         </div>
-    </section>
-
-        <!-- Testimonial Section for desktop view -->
-<section class="testimonial-desktop" id="testimonial">
-  <div class="container pt-5">
-            <h1 class="text-center">What our users have to say</h1>
-            <hr class=" text-center  goldLine">
-            <div class="card p-2">
-              <div class="block">
-                <div class="row">
-                  <div class="card-body">
-                    <div class="row">
-                                            <div class="col-md-2 text-center">
-                                              <img src="images/photoone.png" style="border-radius: 50%;" class="img img-circle img-fluid" />
-                                              <br /><br />
-                                              <!-- <p>
-                                                <b>Jenny Davis</b>
-                                              </p>
-                                              <span>CEO Jenny’s weaves</span> -->
-                                            </div>
-                      <div class="col-md-10">
-                        <div class="block" style="padding-left: 0px; padding-right: 0px;">
-                    
-                        </div>
-            
-                        <p>
-                        “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna nec tempus imperdiet tortor quam accumsan, elementum
-                        enim. Nibh nulla neque consectetur arcu enim in nunc amet id. Arcu morbi sed egestas”
-                        </p>
-                      <span style="float: right;">
-                          <p class="testimonialFontTwo pb-0">Jenny Davis</p>
-                       <span class="testimonialFontOne pt-0"> CEO Jenny’s weaves</span>
-                      </span>
-                      </div>
-
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <hr style="width: 100%;"/>
-              <div class="block">
-                <div class="row">
-                  <div class="card-body">
-                    <div class="row">
-                      <div class="col-md-10">           
-                        <p>
-                        “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna nec tempus imperdiet tortor quam accumsan, elementum
-                        enim. Nibh nulla neque consectetur arcu enim in nunc amet id. Arcu morbi sed egestas”
-                        </p>
-                                            <span>
-                                              <p class="testimonialFontTwo">Jenny Davis</p>
-                   
-                      <span class="testimonialFontOne"> CEO Jenny’s weaves</span>
-                      </span>
-                      </div>
-                      <div class="col-md-2 text-center">
-                        <img src="images/phototwo.png" style="border-radius: 50%;" class="img img-rounded img-fluid" />
-                      </div>
-                     
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            </div>
-</section>
+        </section>
 
 
-<!-- Testimonial Section for mobile view -->
-<section class="testimonial-mobile" id="testimonial">
-  <div class="container">
-            <h1 class="mobiletitle">What our users have to say</h1>
-            <hr class=" text-center  goldLine">
-    <div class="card p-2">
-      <div class="block">
-        <div class="row">
-          <div class="card-body">
-           
-                <img src="images/photoone.png" class="img img-circle img-fluid imageFloatLeft"/>
-            
-                <span style="float: right; width:70%; text-align: right; " >
-                <p class="testimonialMobileFontOne">
-                  “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna nec tempus imperdiet tortor quam
-                  accumsan, elementum
-                  enim. Nibh nulla neque consectetur arcu enim in nunc amet id. Arcu morbi sed egestas”
-                </p>
-              
-                  <span class="testimonialMobileFontTwo">Jenny Davis</span><br/>
-                  <span class="testimonialMobileFontOne"> CEO Jenny’s weaves</span>
-                </span>
-          </div>
-        </div>
-      </div>
-      <hr style="width: 100%;" />
-      <div class="block">
-        <div class="row">
-          <div class="card-body">
-                <span style="float: left; width:70%;">
-                  <p class="testimonialMobileFontOne"  >
-                    “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna nec tempus imperdiet tortor quam
-                    accumsan, elementum
-                    enim. Nibh nulla neque consectetur arcu enim in nunc amet id. Arcu morbi sed egestas”
-                  </p>
-              <span class="testimonialMobileFontTwo">Jenny Davis</span><br />
-              <span class="testimonialMobileFontOne"> CEO Jenny’s weaves</span>
-                
-                  </span>
-                                    <img src="images/phototwo.png" style="border-radius: 50%;" class="img img-rounded img-fluid imageFloatRight" />
-
-                </div>
-             
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
 
     <!-- Footer -->
-    <section class="footer">
+    <section>
     <footer class="footer navStyle pt-5">
         <div class="container-fluid text-center text-md-left">
     
